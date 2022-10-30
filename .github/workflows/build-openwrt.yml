@@ -1,4 +1,4 @@
-name: Build OpenWrt
+name: Build OpenWrt AC2100
 
 on:
   schedule:
