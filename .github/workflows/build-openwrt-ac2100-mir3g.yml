@@ -8,7 +8,7 @@ on:
       - master
 
 env:
-  RELEASE: "22.03.2"
+  RELEASE: "24.10.0"
   BOARD: "ramips"
   SUBTARGET: "mt7621"
   PROFILE1: "xiaomi_redmi-router-ac2100"
@@ -20,7 +20,7 @@ env:
 jobs:
   build:
     runs-on: ubuntu-latest
-    #if: github.event.repository.owner.id == github.event.sender.id
+    if: github.event.repository.owner.id == github.event.sender.id
 
     steps:
     - name: Checkout
