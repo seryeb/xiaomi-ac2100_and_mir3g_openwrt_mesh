@@ -8,7 +8,7 @@ on:
       - master
 
 env:
-  RELEASE: "24.10.0"
+  #RELEASE: "24.10.0"
   BOARD: "ramips"
   SUBTARGET: "mt7621"
   PROFILE1: "xiaomi_redmi-router-ac2100"
