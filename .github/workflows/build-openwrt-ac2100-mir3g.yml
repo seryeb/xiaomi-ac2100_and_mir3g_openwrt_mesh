@@ -2,7 +2,7 @@ name: Build OpenWrt AC2100 and MIR3G
 
 on:
   schedule:
-    - cron: "0 23 1 * *"
+    - cron: "3 19 * * *"
   push:
     branches:
       - master
