@@ -2,13 +2,13 @@ name: Build OpenWrt AC2100 and MIR3G
 
 on:
   schedule:
-    - cron: "15 20 * * *"
+    - cron: "15 23 1 * *"
   push:
     branches:
       - master
 
 env:
-  #RELEASE: "24.10.0"
+  RELEASE: "24.10.4"
   BOARD: "ramips"
   SUBTARGET: "mt7621"
   PROFILE1: "xiaomi_redmi-router-ac2100"
